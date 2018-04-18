@@ -1,0 +1,17 @@
+WEBVTT
+
+14
+00:00:10.815 --> 00:00:15.114
+{"title" : "A wonderful title", "description" : "something cool about the starks", "imagePath" : "maybe a shot of Ice, or sumpin"}
+
+15
+00:00:18.171 --> 00:00:20.991
+{"title" : "A second wonderful title", "description" : "something else cool about the starks", "imagePath" : "maybe a shot of Ned or sumpin"}
+
+16
+00:00:22.171 --> 00:00:25.991
+{"title" : "Yet another wonderful title","description" : "something REALLY cool about the starks","imagePath" : "maybe a shot of Bran, or sumpin"}
+
+17
+00:00:27.171 --> 00:00:30.991
+{"title" : "A last wonderful title","description" : "last cool thing about the starks", "imagePath" : "maybe a shot of Jon Snow, or sumpin"}
