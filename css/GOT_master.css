@@ -149,32 +149,37 @@ video {
 }
 
 #video-controls {
+    background-color: white;
     height: 40px;
     width: 80%;
     margin: 0 auto;
+    text-align: left;
 }
 
 #play-pause
 {
-    height: 40px;
+    border: 1px solid #0B1829;
+    height: 41px;
     color: #000;
-    float: left;
     width: 5%;
-    background-color: #fff;
+    font-size: 20px;
+    float: left;
+    text-align: center;
 }
 
 #volume-bar-cont
 {
+    border: 1px solid #0B1829;
     height: 40px;
-    float: left;
     width: 15%;
-    background-color: #fff;
+    float: left;
+    text-align: center;
 }
 
 #volume-bar
 {
-    width: 100%;
-    margin-top: 10px;
+    width: 95%;
+    margin-top: 18px;
 }
 
 #seek-bar-cont
@@ -182,29 +187,59 @@ video {
     border: 1px solid #0B1829;
     height: 40px;
     float: left;
-    width:74%;
-    margin-left: 1px;
-    background-color: #fff;
+    width: 74.6%;
+    text-align: center;
+
 }
 
 #seek-bar
 {
-    width: 100%;
-    margin-top: 10px;
+    width: 95%;
+    margin-top: 18px;
 }
 
 #full-screen
 {
     border: 1px solid #0B1829;
-    height: 40px;
-    width: 5%;
+    height: 41px;
     float: left;
-    background-color: #fff;
+    width: 5%;
 }
 
 #full-screen img
 {
     width: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.slider
+{
+    -webkit-appearance: none;
+    height: 4px;
+    background: #000;
+}
+
+.slider::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
 }
 
 .house-name {

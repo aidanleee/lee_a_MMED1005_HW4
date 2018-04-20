@@ -79,7 +79,7 @@
 	sigils.forEach(sigil => sigil.addEventListener('click', moveBanner));
 	closeLBox.addEventListener('click', closeLightbox);
 	vidPlayer.addEventListener('ended', closeLightbox);
-	imageBanner.addEventListener('transitioned', showHouseVideo);
+	imageBanner.addEventListener('transitionend', showHouseVideo);
 
 
 
